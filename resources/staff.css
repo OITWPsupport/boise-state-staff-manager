@@ -1,0 +1,370 @@
+/* Dashboard Styles */
+#staff_info_meta_box textarea {
+    width: 25em;
+    height: 7em;
+}
+
+
+/* View Styles */
+.staffList {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+div.bsuStaffToggle {
+    color: #333;
+    border-top: 1px solid #e5e5e5;
+    padding-left: 34px;
+    position: relative;
+    min-height: 198px;
+    clear: both;
+    cursor: pointer;
+}
+
+div.bsuStaffToggle span p {
+    margin: 0;
+}
+
+div.bsuStaffToggle ul li {
+    margin-bottom: 3px;
+}
+
+.bsuStaffDetails {
+    border: 0;
+    display: none;
+    clear: both;
+}
+
+.bsuStaffDetails p {
+    margin: 15px 0;
+    color: #575757;
+    font-size: 13px;
+    font-family: "Lato", "Helvetica", sans-serif;
+    line-height: 1.5em;
+    word-wrap: break-word;
+}
+
+a br {
+    display: none;
+}
+
+.bsuStaffImg {
+    width: 30%;
+    float: left;
+    margin: 10px 0;
+}
+
+.bsuStaffImg img {
+    width: 170px;
+    height: auto;
+    float: left;
+}
+
+.bsuStaffInfo {
+    float: left;
+    margin-left: 25px;
+    margin-top: 15px;
+    display: inline-block;
+    width: 65%;
+}
+
+.bsuStaffInfo h2 {
+    font-size: 18px;
+    color: #007dc3;
+    text-transform: uppercase;
+    font-family: "Lato", "Helvetica", sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 0 5px;
+}
+
+h3.bsuStaffPosition {
+    font-size: 16px;
+    color: #b7b7b7;
+    margin: 0;
+}
+
+h3.bsuStaffDetailHeader {
+    font-size: 16px;
+    color: #007dc3;
+    margin: 15px 0 0;
+    font-family: "Lato", "Helvetica", sans-serif;
+    font-weight: 400;
+}
+
+.bsuStaffInfo ul {
+    font-size: 13px;
+    margin: 2px 0 15px;
+}
+
+.bsuStaffInfo .staffEmail {
+    line-height: 18px;
+    margin: 0;
+    color: #575757;
+    font-size: 13px;
+}
+
+.bsuStaffPersonalSection {
+    width: 145px;
+    float: right;
+    border: 13px solid #f6f6f5;
+    border-top: none;
+    border-bottom: none;
+    padding: 5px 15px;
+    margin: 0;
+    color: #464646;
+    font-size: 16px;
+    font-family: "Lato", "Helvetica", sans-serif;
+    font-weight: 300;
+}
+
+.bsuStaffPersonalSection p {
+    line-height: 28px;
+    margin: 0;
+}
+
+/* Admin styles */
+h4 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+table.bsuStaffTable {
+    clear: both;
+}
+
+.bsuStaff td {
+    padding: 5px;
+    vertical-align: top;
+}
+
+.bsuStaff th {
+    text-align: left;
+}
+
+.bsuStaffWrap .button {
+    margin-right: 8px;
+    float: left;
+}
+
+.bsuStaffWrap .edit {
+    float: right;
+}
+
+.bsuStaffWrap .close {
+    background-color: #FC6;
+    background-image: none;
+}
+
+.bsuStaffWrap label {
+    display: block;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#dashboard-widgets-wrap {
+    padding-left: 30px;
+}
+
+.bsuStaffInactive {
+    color: #d5d5d5;
+}
+
+.bsuStaffWrap {
+    background-color: #fafafa;
+    width: 100%;
+    padding: 10px 25px;
+    float: left;
+    min-height: 600px;
+}
+
+.overlay {
+    border-bottom: 45px solid #b7b7b7;
+    border-left: 45px solid transparent;
+    height: 10px;
+    opacity: .95;
+    right: 456px;
+    float: left;
+    bottom: 18px;
+    top: 1;
+    position: absolute;
+    text-indent: -9999px;
+}
+.overlay:hover,
+.overlay.active{
+    border-bottom: 45px solid #ff6600;
+    border-left: 45px solid transparent;
+    height: 10px;
+    opacity: .95;
+    right: 456px;
+    float: left;
+    bottom: 18px;
+    top: 1;
+    position: absolute;
+    text-indent: -9999px;
+}
+.tog_img p {
+  color: #FFF;
+  font-size: 25px;
+  position: absolute;
+  bottom: 17px;
+  right: 465px;
+}
+
+
+@media (max-width: 960px) {
+    div.bsuStaffToggle {
+        background: #fff;
+        padding-left: 0;
+    }
+
+    .bsuStaffImg {
+        width: 170px;
+        float: none;
+        margin: 10px auto;
+    }
+
+    .bsuStaffInfo {
+        text-align: left;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .bsuStaffInfo h2,
+    .bsuStaffInfo h3,
+    .staffEmail {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .bsuStaffPersonalSection {
+        float: none;
+        clear: both;
+        width: 90%;
+        margin: 0 0 35px;
+    }
+
+    .overlay {
+    border-bottom: 45px solid #b7b7b7;
+    border-left: 45px solid transparent;
+    height: 10px;
+    opacity: .95;
+    right: 178px;
+    float: left;
+    bottom: 18px;
+    top: 1;
+    position: absolute;
+    text-indent: -9999px;
+    }
+    .overlay:hover,
+    .overlay.active{
+    border-bottom: 45px solid #ff6600;
+    border-left: 45px solid transparent;
+    height: 10px;
+    opacity: .95;
+    right: 178px;
+    float: left;
+    bottom: 18px;
+    top: 1;
+    position: absolute;
+    text-indent: -9999px;
+    }
+    .tog_img p {
+      color: #FFF;
+      font-size: 25px;
+      position: absolute;
+      bottom: 18px;
+      right: 185px;
+    }
+    .column{
+        width:100%!important;
+    }
+    .bsuStaffDetailHeader{
+        text-align: center;
+    }
+}
+@media (max-width: 767px) {
+    .overlay {
+    border-bottom: 45px solid #b7b7b7;
+    border-left: 45px solid transparent;
+    height: 10px;
+    opacity: .95;
+    right: 125px;
+    float: left;
+    bottom: 18px;
+    top: 1;
+    position: absolute;
+    text-indent: -9999px;
+    }
+    .overlay:hover,
+    .overlay.active{
+    border-bottom: 45px solid #ff6600;
+    border-left: 45px solid transparent;
+    height: 10px;
+    opacity: .95;
+    right: 125px;
+    float: left;
+    bottom: 18px;
+    top: 1;
+    position: absolute;
+    text-indent: -9999px;
+    }
+
+    .tog_img p {
+      color: #FFF;
+      font-size: 25px;
+      position: absolute;
+      bottom: 18px;
+      right: 135px;
+    }
+    .column{
+        width:100%!important;
+    }
+    .bsuStaffDetailHeader{
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .overlay {
+    border-bottom: 45px solid #b7b7b7;
+    border-left: 45px solid transparent;
+    height: 10px;
+    opacity: .95;
+    right: 65px;
+    float: left;
+    bottom: 18px;
+    top: 1;
+    position: absolute;
+    text-indent: -9999px;
+    }
+    .overlay:hover,
+    .overlay.active{
+    border-bottom: 45px solid #ff6600;
+    border-left: 45px solid transparent;
+    height: 10px;
+    opacity: .95;
+    right: 65px;
+    float: left;
+    bottom: 18px;
+    top: 1;
+    position: absolute;
+    text-indent: -9999px;
+    }
+
+    .tog_img p {
+      color: #FFF;
+      font-size: 25px;
+      position: absolute;
+      bottom: 18px;
+      right: 73px;
+    }
+
+    .column{
+        width:100%!important;
+    }
+    .bsuStaffDetailHeader{
+        text-align: center;
+    }
+}
